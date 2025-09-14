@@ -8,17 +8,17 @@ The goal: build a Retrieval-Augmented Generation (RAG) pipeline that not only an
 ---------------------------------------------------------------------------------------------------------------------
 
 Most RAG demos show you how to stuff documents into a vector store and ask questions. That’s fine for experiments, but in the real world (especially in regulated industries) we also need to think about:
-
+```
 1. Audit logs: Who asked what, and what evidence was used to answer?
 2. Tamper-evidence: How do I know the documents weren’t changed after ingestion?
 3. Reproducibility: Can I re-create the exact same answer tomorrow, with proof?
 4. Hybrid search: Sometimes keyword (lexical) search is more precise than semantic embeddings — so why not use both?
-
+```
 This project is my way of showing how a DBA mindset (data integrity, indexing, compliance) can add value to modern AI systems.
 
 **What This Project Does**
 ---------------------------------------------------------------------------------------------------------------------
-
+```
 1. Document ingestion → PDFs, text files, or database extracts
 2. Hashing & manifests → SHA256 checksums so source files can’t be silently changed
 3. Chunking → split text into 500–1000 token windows with overlap
@@ -29,7 +29,7 @@ This project is my way of showing how a DBA mindset (data integrity, indexing, c
 8. LLM answer generation → OpenAI API (for now, to keep it lightweight)
 9. Audit logging → every query + response is logged with model version and retrieved chunks
 10. Evidence bundles → package up manifests + indexes so answers can be re-verified later
-
+```
 **Tech Stack**
 ---------------------------------------------------------------------------------------------------------------------
 ```
@@ -80,6 +80,7 @@ Record a demo video (ingest → query → audit log → evidence bundle)
 **License**
 ---------------------------------------------------------------------------------------------------------------------
 MIT License — free to use, adapt, and share.
+
 
 
 
