@@ -32,7 +32,7 @@ This project is my way of showing how a DBA mindset (data integrity, indexing, c
 
 **Tech Stack**
 ---------------------------------------------------------------------------------------------------------------------
-
+```
  LangChain (orchestration), 
  ChromaDB (vector store), 
  SQLite FTS5 (lexical search), 
@@ -40,23 +40,21 @@ This project is my way of showing how a DBA mindset (data integrity, indexing, c
  OpenAI API for answer generation, 
  Flask for a simple web UI (WIP), 
  Python 3.12
-
-**Quickstart**
----------------------------------------------------------------------------------------------------------------------
-
-python main.py
-
+```
 **Project Structure**
 ---------------------------------------------------------------------------------------------------------------------
+
+```
 .
-├── ingest/        # Ingestion and hashing
-├── index/         # Chroma + SQLite indexes
-├── retriever/     # Hybrid retrieval + reranking
-├── audit/         # Logs and evidence bundles
-├── server/        # Flask/FastAPI UI (WIP)
-├── tests/         # Unit tests
-├── main.py        # Entry point
+├── ingest/ # Ingestion and hashing
+├── index/ # Chroma + SQLite indexes
+├── retriever/ # Hybrid retrieval + reranking
+├── audit/ # Logs and evidence bundles
+├── server/ # Flask/FastAPI UI (WIP)
+├── tests/ # Unit tests
+├── main.py # Entry point
 └── README.md
+```
 
 **Current Status**
 ---------------------------------------------------------------------------------------------------------------------
@@ -64,16 +62,12 @@ python main.py
 ✅ Repo initialized
 ✅ Project skeleton in place
 
-⏳ Baseline pipeline with Chroma + SQLite hybrid search
-
-⏳ Audit logging and evidence bundle export
-
-⏳ Simple Flask UI
-
-🔮 Next Steps
+Baseline pipeline with Chroma + SQLite hybrid search
+Audit logging and evidence bundle export
+Simple Flask UI
+Next Steps
 
 Add role-based access filters (RBAC)
-
 Automate nightly re-indexing
 
 Record a demo video (ingest → query → audit log → evidence bundle)
@@ -81,4 +75,5 @@ Record a demo video (ingest → query → audit log → evidence bundle)
 📜 License
 
 MIT License — free to use, adapt, and share.
+
 
