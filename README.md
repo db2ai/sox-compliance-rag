@@ -58,15 +58,16 @@ This project is my way of showing how a DBA mindset (data integrity, indexing, c
 
 **Current Status**
 ---------------------------------------------------------------------------------------------------------------------
+```
+Repo initialized --Done
+Project skeleton in place -- Done
 
-✅ Repo initialized
-✅ Project skeleton in place
-
-Baseline pipeline with Chroma + SQLite hybrid search
-Audit logging and evidence bundle export
-Simple Flask UI
-Next Steps
-
+Baseline pipeline with Chroma + SQLite hybrid search -- To be Done
+Audit logging and evidence bundle export -- -- To be Done
+Simple Flask UI -- To be Done
+```
+**Next Steps**
+---------------------------------------------------------------------------------------------------------------------
 Add role-based access filters (RBAC)
 Automate nightly re-indexing
 
@@ -75,5 +76,6 @@ Record a demo video (ingest → query → audit log → evidence bundle)
 📜 License
 
 MIT License — free to use, adapt, and share.
+
 
 
