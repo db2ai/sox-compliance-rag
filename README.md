@@ -33,13 +33,13 @@ This project is my way of showing how a DBA mindset (data integrity, indexing, c
 **Tech Stack**
 ---------------------------------------------------------------------------------------------------------------------
 ```
- LangChain (orchestration)
- ChromaDB (vector store)
- SQLite FTS5 (lexical search) 
- SentenceTransformers for embeddings 
- OpenAI API for answer generation
- Flask for a simple web UI (WIP) 
- Python 3.12
+ 1. LangChain (orchestration)
+ 2. ChromaDB (vector store)
+ 3. SQLite FTS5 (lexical search) 
+ 4. SentenceTransformers for embeddings 
+ 5. OpenAI API for answer generation
+ 6. Flask for a simple web UI (WIP) 
+ 7. Python 3.12
 ```
 **Project Structure**
 ---------------------------------------------------------------------------------------------------------------------
@@ -59,9 +59,13 @@ This project is my way of showing how a DBA mindset (data integrity, indexing, c
 **Current Status**
 ---------------------------------------------------------------------------------------------------------------------
 ```
+Completed
+----------
 Repo initialized --Done
 Project skeleton in place -- Done
 
+Yet to be completed
+-------------------
 Baseline pipeline with Chroma + SQLite hybrid search -- To be Done
 Audit logging and evidence bundle export -- -- To be Done
 Simple Flask UI -- To be Done
@@ -76,6 +80,7 @@ Record a demo video (ingest → query → audit log → evidence bundle)
 **License**
 ---------------------------------------------------------------------------------------------------------------------
 MIT License — free to use, adapt, and share.
+
 
 
 
