@@ -33,12 +33,12 @@ This project is my way of showing how a DBA mindset (data integrity, indexing, c
 **Tech Stack**
 ---------------------------------------------------------------------------------------------------------------------
 ```
- LangChain (orchestration), 
- ChromaDB (vector store), 
- SQLite FTS5 (lexical search), 
- SentenceTransformers for embeddings, 
- OpenAI API for answer generation, 
- Flask for a simple web UI (WIP), 
+ LangChain (orchestration)
+ ChromaDB (vector store)
+ SQLite FTS5 (lexical search) 
+ SentenceTransformers for embeddings 
+ OpenAI API for answer generation
+ Flask for a simple web UI (WIP) 
  Python 3.12
 ```
 **Project Structure**
@@ -68,14 +68,15 @@ Simple Flask UI -- To be Done
 ```
 **Next Steps**
 ---------------------------------------------------------------------------------------------------------------------
+```
 Add role-based access filters (RBAC)
 Automate nightly re-indexing
-
 Record a demo video (ingest → query → audit log → evidence bundle)
-
-📜 License
-
+```
+**License**
+---------------------------------------------------------------------------------------------------------------------
 MIT License — free to use, adapt, and share.
+
 
 
 
