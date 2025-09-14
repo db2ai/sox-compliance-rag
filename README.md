@@ -33,42 +33,21 @@ This project is my way of showing how a DBA mindset (data integrity, indexing, c
 **Tech Stack**
 ---------------------------------------------------------------------------------------------------------------------
 
-LangChain
- (orchestration)
+ LangChain (orchestration), 
+ ChromaDB (vector store), 
+ SQLite FTS5 (lexical search), 
+ SentenceTransformers for embeddings, 
+ OpenAI API for answer generation, 
+ Flask for a simple web UI (WIP), 
+ Python 3.12
 
-ChromaDB
- (vector store)
-
-SQLite FTS5
- (lexical search)
-
-SentenceTransformers
- for embeddings
-
-OpenAI API
- for answer generation
-
-Flask
- for a simple web UI (WIP)
-
-Python 3.12
-
-⚡ Quickstart
-
-Clone the repo and create a virtual environment:
-
-git clone https://github.com/<your-username>/sox-compliance-rag.git
-cd sox-compliance-rag
-python3 -m venv venv
-source venv/bin/activate   # or venv\Scripts\activate on Windows
-pip install -r requirements.txt
-
-
-Run the demo:
+**Quickstart**
+---------------------------------------------------------------------------------------------------------------------
 
 python main.py
 
-📂 Project Structure
+**Project Structure**
+---------------------------------------------------------------------------------------------------------------------
 .
 ├── ingest/        # Ingestion and hashing
 ├── index/         # Chroma + SQLite indexes
@@ -79,10 +58,10 @@ python main.py
 ├── main.py        # Entry point
 └── README.md
 
-🚧 Current Status
+**Current Status**
+---------------------------------------------------------------------------------------------------------------------
 
 ✅ Repo initialized
-
 ✅ Project skeleton in place
 
 ⏳ Baseline pipeline with Chroma + SQLite hybrid search
@@ -102,3 +81,4 @@ Record a demo video (ingest → query → audit log → evidence bundle)
 📜 License
 
 MIT License — free to use, adapt, and share.
+
