@@ -61,14 +61,23 @@ This project is my way of showing how a DBA mindset (data integrity, indexing, c
 ```
 Completed
 ----------
-Repo initialized --Done
-Project skeleton in place -- Done
+Ingest + sample file creation — done (main.py)
+SHA256 manifests — done (manifests table)
+Chunking — done (main.py)
+SQLite FTS docs — done
+Embedding generation — done (sentence-transformers)
+Embedding storage — done in SQLite (not Chroma)
+Hybrid retrieval & cosine re-rank — done
+Simple audit log — done (text file)
 
 Yet to be completed
 -------------------
-Baseline pipeline with Chroma + SQLite hybrid search -- To be Done
-Audit logging and evidence bundle export -- -- To be Done
-Simple Flask UI -- To be Done
+Chroma storage — planned
+Structured audit_logs table — planned
+Evidence bundle — planned
+LLM answer generation — planned
+Cross-encoder re-ranker — planned
+
 ```
 **Next Steps**
 ---------------------------------------------------------------------------------------------------------------------
@@ -80,6 +89,7 @@ Record a demo video (ingest → query → audit log → evidence bundle)
 **License**
 ---------------------------------------------------------------------------------------------------------------------
 MIT License — free to use, adapt, and share.
+
 
 
 
